@@ -1,1 +1,12 @@
+public class OddEvenCheck {
+    public static void main(String[] args) {
+        int number = 7; // Replace this with the number you want to check
 
+        // Check if the number is even or odd
+        if (number % 2 == 0) {
+            System.out.println(number + " is Even");
+        } else {
+            System.out.println(number + " is Odd");
+        }
+    }
+}
